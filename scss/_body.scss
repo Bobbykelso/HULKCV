@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primaryColor;
+    margin: 0;
+    font-family: 'Calibri, sans-serif';
+    font-size: auto;
+    color: $fontColor;
+    h1 {
+        color: $titleColor; 
+        border-top: solid 2px $titleColor;
+        font-size: 1.17em;
+    }
+}
