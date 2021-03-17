@@ -1,0 +1,7 @@
+hulk colors in palette :
+Colors              Hex         RGB
+vert très foncé     #253324	    (37,51,36)
+vert très clair     #9bc063	    (155,192,99)
+vert moyen          #70964b	    (112,150,75)
+violet              #5a4862	    (90,72,98)
+vert foncé          #455d3b	    (69,93,59)
