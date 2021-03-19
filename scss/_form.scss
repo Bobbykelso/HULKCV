@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 600px) {
+
+  .humanForm{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .humanForm label {
+  margin: 5px 10px 5px 0;
+}
+
+  .humanForm input
+{
+  vertical-align: middle;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.humanForm legend {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.humanForm textarea {
+    display : block;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 340px;
+    height  : 360px;
+    // resize  : none;
+    // overflow: auto;
+  }
+  
+
+
+  // .hulkForm { 
+  //   display: none; 
+
+}
