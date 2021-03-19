@@ -1,6 +1,5 @@
 <section>
     <div>
-        <source media="(max-width: 600px)" srcset="public/img/dna-163466_1280.webp">
         <img src="public/img/dna-163466_1280.webp" alt="Carroussel Dr Banner">
     </div>
     <article>
