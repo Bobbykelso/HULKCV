@@ -21,5 +21,6 @@
         <?php include("footer.php");?>
     </footer>
     <script src="displayContent.js"></script>
+    <script src="/Javascript/responsiveNav.js"></script>
 </body>
 </html>
