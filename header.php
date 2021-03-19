@@ -1,9 +1,13 @@
-<header>
-    <nav>
-        <ul>
-            <li>Section 1</li>
-            <li>Section 2</li>
-            <li>Section 3</li>
-        </ul>
-    </nav>
-</header>
+<body>
+    <header>
+        <div class="header">
+            <a href="#default" class="logo">HulkLogo</a>
+            <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#profil">Mon Profil</a>
+                <a href="#skill">Mes Compétences</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <script src="/Javascript/responsiveNav.js"></script>
+</body>
