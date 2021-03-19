@@ -25,4 +25,27 @@ button {
   padding: 8px 25px;
 }
 
+.article {
+  height: 20px;
+}
+
+.article__timeline {
+  height: 60px;
+}
+
+.timeline__content, .experience__content, .skills__content {
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  color: #e9e5ec;
+  height: -20px;
+}
+
+.display {
+  visibility: visible;
+  transform: translateY(0);
+  transform-origin: 50% 0%;
+  color: #333;
+}
+
 /*# sourceMappingURL=style.css.map */
