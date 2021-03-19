@@ -20,5 +20,6 @@
     <footer>
         <?php include("footer.php");?>
     </footer>
+    <script src="displayContent.js"></script>
 </body>
 </html>

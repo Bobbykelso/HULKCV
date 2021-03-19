@@ -1,14 +1,21 @@
 <section>
+    <article class="article" id="article">
+        <h1 class="timeline" id="timeline"><i class="fi-rr-angle-down"></i>Timeline</h1>
+        <div class="timeline__content" id="timeline__content">
+            //Contenu de Timeline
+        </div>
     </article>
-    <article>
-        <h1>Timeline</h1>
-        //Contenu de Timeline
+    <article class="article">
+        <h1 class="experience" id="experience"><i class="fi-rr-angle-down"></i>Experiences</h1>
+        <div class="experience__content" id="experience__content">
+            //Contenu d'experience
+        </div>
     </article>
-    <article>
-        <h1>Experiences</h1>
+    <article class="article">
+        <h1 class="skills" id="skills"><i class="fi-rr-angle-down"></i>Skills</h1>
+        <div class="skills__content" id="skills__content">
+            //Contenu de skills
+        </div>
     </article>
-    <article>
-        <h1>Skills</h1>
-        <button>En savoir plus</button>
-    </article>
+    <button>En savoir plus</button>
 </section>
