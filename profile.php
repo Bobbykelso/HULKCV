@@ -1,6 +1,6 @@
 <section>
     <div>
-        <img src="public/img/dna-163466_1280.webp" alt="Carroussel Dr Banner">
+        <img src="" alt="Carroussel Dr Banner">
     </div>
     <article>
         <h1>Qui suis-je ? </h1>
