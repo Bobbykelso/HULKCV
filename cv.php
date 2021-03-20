@@ -17,5 +17,5 @@
             //Contenu de skills
         </div>
     </article>
-    <button>En savoir plus</button>
+    <button id="activate-hulk-mod">En savoir plus</button>
 </section>

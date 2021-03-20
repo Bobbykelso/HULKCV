@@ -1,3 +1,23 @@
 .hulk-mod{
-    /*On applique ici tous les changements, et on l'ajoute a <body> lors de l'évènement 'click' sur le bouton en savoir plus*/
+    background-color: $primaryColorHulk;
+    color: $fontColorHulk;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    h1 {
+        font-family: 'Butcherman', cursive;
+        font-size: 30px;
+        text-shadow: -0.2px -0.2px 0 #000, 1px 1px 0 #000, 0.2px 0.2px 0 #000, 0.2px 0.2px 0 #000;
+    }
+
+    button {
+        outline: none;
+        padding: 1px 40px;
+        font-family: 'Butcherman', cursive;
+        font-size: 25px;
+    }
+
+    .article i {
+        right: 120px;
+    }
 }
