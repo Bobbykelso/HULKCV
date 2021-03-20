@@ -1,45 +1,60 @@
-@keyframes display-content {
+@keyframes moving-icon {
     0% {
-        transform: scaleY(0);
-        transform-origin: top;
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1vh);
     }
     100% {
-        transform: scaleY(1);
-    }
-}
-
-@keyframes hide-content {
-    0% {
-        transform: scaleY(1)
-    }
-    100% {
-        transform: scaleY(0);
+        transform: translateY(0);
     }
 }
 
 .article {
-    position: relative;
-}
-
-.article i {
-    vertical-align: middle;
-    transform: translateY(-10px);
-    margin-right: 13px;
-    font-size: 20px;
+    width: 95%;
+    margin: auto;
+    .timeline {
+        margin-top: 10px;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 0;
+        height: 50px;
+        position: relative;
+    }
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 95vw;
+        height: 50px;
+        right: 60px;
+        font-size: 20px;
+        &:hover {
+            animation: moving-icon 0.7s linear infinite;
+        }
+    }
+    p {
+        margin-top: 0;
+    }
 }
 
 .timeline__content, .experience__content, .skills__content{
-    display: none;
-    animation: hide-content 1s;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
 }
 
 .hide {
-    animation: display-content 1s;
+    max-height: 0;
 }
 
 .display{
-    animation: display-content 1s;
-    display: block;
+    max-height: 200px;
 }
 
 @media only screen and (min-width: 767px){

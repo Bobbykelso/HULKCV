@@ -1,8 +1,8 @@
-<section>
+<section class="section-cv">
     <article class="article">
         <h1 class="timeline" id="timeline"><i class="fi-rr-angle-down" id="icon1"></i>Timeline</h1>
         <div class="timeline__content" id="timeline__content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi pariatur fuga voluptatibus ut quaerat illum natus vitae nobis. Minima voluptate hic facere blanditiis nihil quaerat vero animi commodi, unde corporis?
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi pariatur fuga voluptatibus ut quaerat illum natus vitae nobis. Minima voluptate hic facere blanditiis nihil quaerat vero animi commodi, unde corporis?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio illo sint repellendus quia sit, quam dolorem quas delectus corporis minima deleniti velit autem cumque nam labore voluptate ea placeat aut.</p>
         </div>
     </article>
     <article class="article">
