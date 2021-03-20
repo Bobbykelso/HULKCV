@@ -32,5 +32,5 @@ experienceButton.addEventListener('click', function(){
 })
 
 skillsButton.addEventListener('click', function(){
-    displayToggle(experience, icon3, 'skills');
+    displayToggle(skills, icon3, 'skills');
 })
