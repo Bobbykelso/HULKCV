@@ -7,7 +7,7 @@
         <h1>Qui suis-je ? </h1>
         <p>
         <picture>
-                <source media="(max-width: 600px)"
+                <source media="(max-width: 767px)"
                         srcset="public/img/Bruce_Banner_small.jpg">
                     <img src="public/img/Bruce_Banner_medium.jpg"
                         alt="Image de Bruce Banner">
