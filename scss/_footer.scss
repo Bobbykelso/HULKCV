@@ -1,4 +1,26 @@
+.networkIcons {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+  align-content: space-between;
+
+
+  img {
+    width: 35px;
+  }
+}
+
+
+
 input[type="search"] {
     border: 1px dotted #999;
     border-radius: 0;
   }
+
+
+.searchInsite{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+}
