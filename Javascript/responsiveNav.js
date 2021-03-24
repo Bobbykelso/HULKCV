@@ -1,16 +1,10 @@
-headerIcon = document.querySelector('#nav__icon');
 
-body = document.querySelector('body');
+headerBtn = document.querySelector("#header");
 
-siteCache = document.querySelector('#site-cache');
+headerBtn.addEventListener('click', function(){
+    nav.classList.toggle('display');
 
-headerIcon.addEventListener('click', function(e)
-{
-    e.preventDefault();
-    body.classList.toggle('with--sidebar');
+    headerBtn.classList.toggle('nav');
+
 })
 
-siteCache.addEventListener('click', function()
-{
-    body.classList.remove('with--sidebar');
-})

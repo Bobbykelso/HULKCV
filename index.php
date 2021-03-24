@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
 </head>
   
 <body>
@@ -23,9 +24,9 @@
     <?php include("form.php");?>
     <?php include("footer.php");?>
 
-    <script src="/Javascript/hulkMod.js"></script>
     <script src="/Javascript/displayContent.js"></script>
     <script src="/Javascript/responsiveNav.js"></script>
+    <script src="/Javascript/hulkMod.js"></script>
   
 </body>
 </html>
