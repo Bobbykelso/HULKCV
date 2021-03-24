@@ -18,6 +18,7 @@
 </head>
   
 <body>
+    <div id="shake">
     <?php include("header.php");?>
     <?php include("profile.php");?>
     <?php include("cv.php");?>
@@ -27,6 +28,6 @@
     <script src="/Javascript/displayContent.js"></script>
     <script src="/Javascript/responsiveNav.js"></script>
     <script src="/Javascript/hulkMod.js"></script>
-  
+    </div>
 </body>
 </html>
