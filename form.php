@@ -39,33 +39,33 @@
 
 
     <fieldset class="hulkForm" id="hulkForm">
-       <legend>Votre mission (s'affiche en thème HULK)</legend>
+       <legend>MISSION</legend>
  
         <div class="form-input">
-            <label>Vous voudriez ?</label>
+            <label>QUE FAIRE ?</label>
             <div class="radio-container">
                 <div class="custom-radio">
                     <input type="radio" name="souhait" value="track" id="track" />
-                    <label class="radio-label" for="track"><strong>Retrouver et traquer</strong> un ennemi</label>
+                    <label class="radio-label" for="track"><strong>ATTRAPER</strong> un ennemi</label>
                 </div>
                 <div class="custom-radio">
                     <input type="radio" name="souhait" value="fight" id="fight" />
-                    <label class="radio-label" for="fight"><strong>Casser la g#@ul€</strong> à un ennemi</label>
+                    <label class="radio-label" for="fight"><strong>SMASH</strong> un ennemi</label>
                 </div>
                 <div class="custom-radio">
                     <input type="radio" name="souhait" value="remove" id="remove" />
-                    <label class="radio-label" for="remove"><strong>Supprimer définitivement </strong> un ennemi</label>
+                    <label class="radio-label" for="remove"><strong>KILL</strong> un ennemi</label>
                 </div>
                 <div class="custom-radio">
                     <input type="radio" name="souhait" value="autre" id="autre" />
-                    <label class="radio-label" for="autre">Autre ?!</label>
+                    <label class="radio-label" for="autre">T'EN VEUX ENCORE ?!</label>
                 </div>
             </div>
         </div>
  
         <div class="form-input">
            <label for="precisions"></label>
-           <textarea class="custom-input" name="precisions" id="precisions" cols="40" rows="4" placeholder='Si "Autre", veuillez préciser :'></textarea>
+           <textarea class="custom-input" name="precisions" id="precisions" cols="40" rows="4" placeholder='QUEL EST LA MISSION ?'></textarea>
         </div>
    </fieldset>
 
