@@ -1,10 +1,9 @@
 
-headerBtn = document.querySelector("#nav");
+headerBtn = document.querySelector("#active");
+listNav = document.querySelector("#list");
+
 
 headerBtn.addEventListener('click', function(){
-    nav.classList.toggle('display');
-
-    headerBtn.classList.toggle('nav');
+    listNav.classList.toggle('display');
 
 })
-
