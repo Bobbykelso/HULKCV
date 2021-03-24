@@ -504,6 +504,7 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
 }
 .fi-rr-home:before {
     content: "\f1a3";
+    padding-right: 5px;
 }
 .fi-rr-hourglass-end:before {
     content: "\f1a4";
