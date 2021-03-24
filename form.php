@@ -38,7 +38,7 @@
     </fieldset>
 
 
-    <fieldset class="hulkForm">
+    <fieldset class="hulkForm" id="hulkForm">
        <legend>Votre mission (s'affiche en thème HULK)</legend>
  
         <div class="form-input">
