@@ -4,7 +4,7 @@
     grid-gap: 8px;
 }
 .carousel {
-    box-sizing: border-box;
+    grid-template: max-content;
     width: auto;
     grid-column-start: 1;
     grid-column-end: 4;
