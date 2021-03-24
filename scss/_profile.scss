@@ -28,9 +28,10 @@
   }
 
 .description {
+    display: list-item;
     text-align: left;
     color: $fontColor;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 h1 {

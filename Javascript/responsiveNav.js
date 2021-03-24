@@ -1,5 +1,5 @@
 
-headerBtn = document.querySelector("#header");
+headerBtn = document.querySelector("#nav");
 
 headerBtn.addEventListener('click', function(){
     nav.classList.toggle('display');
