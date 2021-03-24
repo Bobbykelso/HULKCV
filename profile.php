@@ -15,7 +15,6 @@
                 <img src="public/img/Bruce_Banner_medium.jpg" alt="Image de Bruce Banner">
             </picture>
         </div>
-
     </section>
     <div class="contactBtn">
         <button>Contactez-moi</button>

@@ -10,6 +10,13 @@
     }
 }
 
+.section-cv{
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
 .article {
     width: 95%;
     margin: auto;
@@ -43,6 +50,7 @@
     }
 }
 
+
 .timeline__content, .experience__content, .skills__content{
     max-height: 0;
     overflow: hidden;
@@ -54,7 +62,7 @@
 }
 
 .display{
-    max-height: 200px;
+    max-height: 500px;
 }
 
 @media only screen and (min-width: 767px){
