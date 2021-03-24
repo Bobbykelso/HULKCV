@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="public/iconmoon.css">
     <link rel="stylesheet" href="public/uicons-regular-rounded.css">
+    
 </head>
 <body>
     <?php include("header.php");?>
