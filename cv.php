@@ -2,7 +2,9 @@
     <article class="article">
         <h1 class="timeline" id="timeline"><i class="fi-rr-angle-down" id="icon1"></i>Timeline</h1>
         <div class="timeline__content" id="timeline__content">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi pariatur fuga voluptatibus ut quaerat illum natus vitae nobis. Minima voluptate hic facere blanditiis nihil quaerat vero animi commodi, unde corporis?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio illo sint repellendus quia sit, quam dolorem quas delectus corporis minima deleniti velit autem cumque nam labore voluptate ea placeat aut.</p>
+
+            <p>Je m'appelle Robert Bruce Banner, mais tous le monde m'appel Bruce ou Dr.Banner, je fais 1m76 pour 62kg, ancien membre du Shied & des Vengeurs, je suis diplomé en physique nucléaire, spécialisé dans les rayons Gamma. Je suis avant tout un savant timide qui cache en lui un monstre ravageur à l'esprit d'enfant, qui demande uniquement qu'on le laisse en paix...
+          </p>
         </div>
     </article>
     <article class="article">
