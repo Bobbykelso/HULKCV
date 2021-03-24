@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: $primaryColor;
+    background: rgb(233,229,236);
+    background: linear-gradient(180deg, rgba(233,229,236,1) 0%, rgba(155,120,167,1) 88%, rgba(90,72,98,1) 100%);
     margin: 0;
     font-family: 'Calibri, sans-serif';
     font-size: auto;

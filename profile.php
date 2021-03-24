@@ -2,6 +2,7 @@
     <section class="profil">
         <div class="carousel" id="carousel">
             <img class="image" src="public\img\carousel.jpg" alt="Carroussel Dr Banner">
+            <img class="imageHulk" src="public\img\carouselHULK.jpg" alt="Carroussel HULK">
         </div>
         <h1>Qui suis-je ? </h1>
         <div class="containerprofil" id="containerprofil">

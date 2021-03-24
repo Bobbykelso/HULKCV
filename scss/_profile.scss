@@ -2,6 +2,13 @@
   display:flex;
   justify-content: space-around;
 }
+.image {
+  width: 100%;
+}
+.imageHulk {
+  display: none;
+  width: 100%;
+}
 .avatar {
   flex: 1;
   position: relative;
