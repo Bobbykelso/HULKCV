@@ -1,6 +1,6 @@
 <header>
     <div class="nav" id="nav">
-        <a href="#nav" class="active" id="active">Accueil</a>
+        <a href="#nav" class="active" id="active"><i class="fi-rr-home"></i>Accueil</a>
         <ul class="list" id="list">
             <li><a href="avatar">Mon Profil</a></li>
             <li><a href="#timeline">Mes Compétences</a></li>
