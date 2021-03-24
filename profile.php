@@ -5,8 +5,7 @@
                 <img src="" alt="Carroussel Dr Banner">
         </div>
         <article>
-            <h1>Qui suis-je ? </h1>
-            <p>
+            <h1>Qui suis-je ?</h1>
                 <picture>
                     <source media="(max-width: 767px)" srcset="public/img/Bruce_Banner_small.jpg">
                     <img src="public/img/Bruce_Banner_medium.jpg" alt="Image de Bruce Banner">

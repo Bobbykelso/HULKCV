@@ -8,14 +8,24 @@
     <article class="article">
         <h1 class="experience" id="experience"><i class="fi-rr-angle-down" id="icon2"></i>Experiences</h1>
         <div class="experience__content" id="experience__content">
-            //Contenu d'experience
+            -Création d'une bombe gamma pour les militaires.<br>
+            -Création d'un téléporteur.<br>
+            -Création d'un champ de force protecteur.<br>
         </div>
     </article>
     <article class="article">
         <h1 class="skills" id="skills"><i class="fi-rr-angle-down" id="icon3"></i>Skills</h1>
         <div class="skills__content" id="skills__content">
-            //Contenu de skills
+            Détient une expertise dans divers domaines:
+            <ul>
+                <li>Biologie</li>
+                <li>Chimie</li>
+                <li>Ingénierie</li>
+                <li>Physiologie</li>
+                <li>Physique nucléaire</li>
+            </ul>
+            Capable de dissimuler avec aisance sa véritable identité.
         </div>
     </article>
-    <button id="activate-hulk-mod">En savoir plus</button>
+    <button><a href="#profil" id="activate-hulk-mod">En savoir plus</a></button>
 </section>

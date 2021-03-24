@@ -23,9 +23,9 @@
     <?php include("form.php");?>
     <?php include("footer.php");?>
 
-    <script src="/Javascript/hulkMod.js"></script>
     <script src="/Javascript/displayContent.js"></script>
     <script src="/Javascript/responsiveNav.js"></script>
+    <script src="/Javascript/hulkMod.js"></script>
   
 </body>
 </html>
