@@ -1,53 +1,150 @@
+// .formTitleDiv {
+//   display: inline;
+//   justify-content: flex-start;
+.formTitle {
+  margin-top: 1rem;
+  padding-top: 5px;
+}
+
+
 fieldset{
   margin-top: 20px;
-}
-   .humanForm{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
- 
-  }
-
-  .humanForm label {
-  margin: 5px 10px 5px;
-}
-
-  .humanForm input
-{
-  width: 70%;
-  vertical-align: middle;
-  margin: auto;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-
-.humanForm legend {
-    height: 1rem;
-    margin-bottom : 10px;
-}
-
-.humanForm textarea {
-    display : block;
-    padding : 10px;
-    margin  : auto;
-    width   : 70%;
-    resize  : none;
-    overflow: auto;
+  border: none;
+  legend {
+    border-bottom: 1px solid $titleColor;
+    width: 100%;
+    padding-bottom: 5px;
   }
   
+}
+.humanForm{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-flow: column wrap;
+  justify-content: center;
 
+  .form-input {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+    //border: solid 1px $fontColorHulk;
 
-.hulkForm { 
-  display: none; 
+    label {
+      margin: 5px 10px 5px;
+      flex: 1;
+    }
+
+    input.custom-input
+    {
+      flex: 5;
+      vertical-align: middle;
+      margin: auto;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    textarea.custom-input {
+      flex: 5;
+      padding : 10px;
+      margin  : auto;
+      border: none;
+      width   : 100%;
+      resize  : none;
+      overflow: auto;
+    }
+  }
 
 }
 
+.hulkForm { 
+  //display: none; 
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
 
-@media screen and (max-width: 600px) {
-
-  .humanForm{
+  .form-input {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 5px;
+    //border: solid 1px $fontColorHulk;
+  
+    .radio-container {
+      flex: 5;
+    }
+
+    .custom-radio {
+      display: block;
+      input[type="radio"].custom-input {
+        flex: 1;
+        border: 1px dotted #999;
+        border-radius: 0;
+      }
+
+      > label.radio-label {
+        margin: 5px 10px 5px;
+        flex: 5;
+      }
+    }
+
+    label {
+      margin: 5px 10px 5px;
+      flex: 1;
+    }
+
+    textarea.custom-input {
+      flex: 5;
+      width: 100%;
+      padding: 10px;
+      margin: auto;
+      border: none;
+      resize: none;
+      overflow: auto;
+    }
   }
+}
+
+@media screen and (max-width: $breakingPoint) {
+
+  .humanForm {
+
+    .form-input {
+      flex-direction: column;
+      width: 100%;
+    
+      .custom-input{
+          flex: 1;
+          width: 100%;
+
+      }
+      textarea.custom-input {
+        flex: 1;
+        width : 100%;
+      }
+    }
+  }
+
+
+  .hulkForm { 
+
+    .form-input {
+      flex-direction: column;
+      width: 100%;
+
+      .radio-container{
+        margin: auto;
+      }
+      
+
+    }
+
+  }
+  .hulkForm .form-input textarea.custom-input {
+    width: 100%;
+  }
+
 }

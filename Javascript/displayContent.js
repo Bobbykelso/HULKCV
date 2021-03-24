@@ -1,12 +1,16 @@
-timelineButton = document.querySelector("#timeline");
-experienceButton = document.querySelector("#experience");
-skillsButton = document.querySelector("#skills");
-timeline = document.querySelector("#timeline__content");
-experience = document.querySelector("#experience__content");
-skills = document.querySelector("#skills__content");
-icon1 = document.querySelector("#icon1");
-icon2 = document.querySelector("#icon2");
-icon3 = document.querySelector("#icon3");
+function Q(i){
+    return typeof i == "object" ? i : document.querySelector(i);
+}
+
+const timelineButton = Q("#timeline");
+const experienceButton = Q("#experience");
+const skillsButton = Q("#skills");
+const timeline = Q("#timeline__content");
+const experience = Q("#experience__content");
+const skills = Q("#skills__content");
+const icon1 = Q("#icon1");
+const icon2 = Q("#icon2");
+const icon3 = Q("#icon3");
 
 function displayToggle(content, icon, contentText){
     content.classList.toggle('display');
