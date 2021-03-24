@@ -1,5 +1,10 @@
 <footer>
 
+<div class="network">
+<div class="titleNetwork">
+    Retrouvez-nous sur les réseaux
+</div>
+
 <div class="networkIcons">
     <a href="https://www.facebook.com/Hulk/">
     <img src="public/img/icons/facebook.png" alt="facebookIcon" src="https://www.facebook.com/Hulk">
@@ -21,19 +26,22 @@
     <img src="public/img/icons/youtube.png" alt="youtubeIcon" src="https://youtu.be/MmQdIgD5UVI">
     </a>
 </div>
+</div>
 
 
 <div class="searchInsite">
-<form method="get" action="">
+<form class="formSearchInsite" method="get" action="">
 
-    <fieldset>
-        <label for="search">Rechercher sur le site :</label>
+    <fieldset class= "fieldsetSearch">
+        <label class="labelSearch" for="search">Chercher sur le site :</label>
         <input type="search" name="search" id="search">
 
 
-        <button type="submit" id="searchBtn">Chercher</button>
+        <button class="buttonSearch" type="submit" id="searchBtn">Chercher</button>
     </fieldset>
 </form>
 </div>
+
+<div class="endText">© Wild Code School - Adrien, Aurélien, Sara - Mars 2021</div>
 
 </footer>
