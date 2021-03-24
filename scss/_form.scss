@@ -1,3 +1,12 @@
+// .formTitleDiv {
+//   display: inline;
+//   justify-content: flex-start;
+  .formTitle {
+    margin-top: 1rem;
+    padding-top: 5px;
+  }
+
+
 fieldset{
   margin-top: 20px;
   border: none;
@@ -15,11 +24,10 @@ fieldset{
 
   .form-input {
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-bottom: 5px;
     //border: solid 1px $fontColorHulk;
-
-
 
     label {
       margin: 5px 10px 5px;
@@ -53,13 +61,15 @@ fieldset{
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  width: 100%;
 
   .form-input {
     display: flex;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     margin-bottom: 5px;
     //border: solid 1px $fontColorHulk;
-
+  
     .radio-container {
       flex: 5;
     }
@@ -85,23 +95,53 @@ fieldset{
 
     textarea.custom-input {
       flex: 5;
-      padding : 10px;
-      margin  : auto;
+      width: 70%;
+      padding: 10px;
+      margin: auto;
       border: none;
-      width   : 70%;
-      resize  : none;
+      resize: none;
       overflow: auto;
     }
   }
-
 }
 
+@media screen and (max-width: $breakingPoint) {
 
-@media screen and (max-width: $mediaQuerySize) {
+  .humanForm {
 
-  .humanForm{
-    display: block;
-    width: 70%;
+    .form-input {
+      flex-direction: column;
+      width: 100%;
+    
+      .custom-input{
+          flex: 1;
+          width: 100%;
+
+      }
+      textarea.custom-input {
+        flex: 1;
+        width : 100%;
+      }
+    }
+  }
+
+
+  .hulkForm { 
+
+    .form-input {
+      flex-direction: column;
+      width: 100%;
+
+      .radio-container{
+        margin: auto;
+      }
+      
+
+    }
 
   }
+  .hulkForm .form-input textarea.custom-input {
+    width: 100%;
+  }
+
 }

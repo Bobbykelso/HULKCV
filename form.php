@@ -1,6 +1,7 @@
 <form class="form-inline" method="post" action="/traitement.php">
-
-    <h1>Formulaire de contact</h1>
+    <div class="formTitleDiv">
+    <h1 class="formTitle">Formulaire de contact</h1>
+    </div>
 
     <fieldset class=humanForm>
         <legend>Vos coordonnées</legend>
