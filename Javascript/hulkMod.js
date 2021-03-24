@@ -7,6 +7,7 @@ bannerPicture = document.querySelector('.bannerPicture');
 hulkPicture = document.querySelector('.hulkPicture');
 descriptionBanner = document.querySelector('.descriptionBanner');
 descriptionHulk = document.querySelector('.descriptionHulk');
+shake = document.querySelector('#shake');
 
 
 hulkButton.addEventListener('click', function (e) {
@@ -21,8 +22,13 @@ hulkButton.addEventListener('click', function (e) {
         };
         hulkPicture.style.opacity = "1";
         bannerPicture.style.opacity ="0";
+        hulkPicture.classList.add('shake');
+        bannerPicture.style.transition = "opacity 5s";
+        hulkPicture.style.transition = "opacity 5s";
         descriptionBanner.style.display = "none";
         descriptionHulk.style.display = "block";
+        shake.classList.add('shake');
+        
     } else {
         hulkButton.textContent = "En savoir plus";
         hulkForm.style.display = "none";
