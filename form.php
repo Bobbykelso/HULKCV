@@ -5,16 +5,16 @@
     <fieldset class=humanForm>
         <legend>Vos coordonnées</legend>
         <label for="contact">Nom et Prénom :</label>
-        <input type="text" name="contact" id="contact" placeholder="Tapez ici votre nom et prénom">
+        <input type="text" name="contact" id="contact" placeholder="Iron Man">
 
         <label for="company">Société :</label>
-        <input type="text" name="company" id="company" placeholder="Tapez ici le nom de votre entreprise">
+        <input type="text" name="company" id="company" placeholder="Les Avengers">
 
         <label for="email">Email :</label>
-        <input type="email" name="email" id="email" placeholder="Votre adresse email" required /> <!-- required permet d'obliger le remplissage d'un champ -->
+        <input type="email" name="email" id="email" placeholder="iron_man@avengers.com" required /> <!-- required permet d'obliger le remplissage d'un champ -->
 
         <label for="phone">Téléphone :</label>
-        <input type="phone" name="phone" id="phone" placeholder="+33 XX XX XX XX XX">
+        <input type="phone" name="phone" id="phone" placeholder="078 654 376">
 
     </fieldset>
 
@@ -22,7 +22,7 @@
         <legend>Votre Message</legend>
 
         <label for="message"></label>
-        <textarea name="message" id="message" cols="30" rows="5" placeholder="Tapez ici votre message"></textarea>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Bonjour, ceci est votre message"></textarea>
 
     </fieldset>
 
