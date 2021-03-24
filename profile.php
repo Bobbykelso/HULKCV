@@ -1,7 +1,7 @@
 <main>
     <section class="profil">
         <div class="carousel" id="carousel">
-            <img src="public\img\dna-163466_1280.webp" alt="Carroussel Dr Banner">
+            <img class="image" src="public\img\carousel.jpg" alt="Carroussel Dr Banner">
         </div>
         <div class="parcours" id="parcours">
             <h1>Qui suis-je ? </h1>

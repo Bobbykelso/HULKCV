@@ -1,10 +1,12 @@
 <header>
     <div class="nav" id="nav">
-        <a href="#nav" class="active">Accueil</a>
-        <a href="#avatar">Mon Profil</a>
-        <a href="#timeline">Mes Compétences</a>
-        <a href="#contact">Contact</a>
-        <a href="#search">About</a>
+        <a href="#nav" class="active" id="active">Accueil</a>
+        <ul class="list" id="list">
+            <li><a href="avatar">Mon Profil</a></li>
+            <li><a href="#timeline">Mes Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#search">About</a></li>
+        </ul>
         </a>
     </div>
 </header>

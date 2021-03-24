@@ -1,45 +1,33 @@
 .profil {
-    display: grid;
-    border: 1px solid $titleColor;
-    grid-gap: 8px;
+
 }
 .carousel {
-    grid-template: max-content;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    min-height: 100px;
-    margin: auto;
+  
   }
-  .avatar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    border-top: solid 2px $titleColor;
-  }
+.image {
+  width: 100%;
+}
+.avatar {
+width: 50%;
+}
 .parcours {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    
   }
 
 .description {
+    display: list-item;
     text-align: left;
     color: $fontColor;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 @media screen and (max-width: 767px) {
     .profil  {
-      display: grid;
-      grid-gap: 5px;
+      
+    }
+    .carousel {
+      display: none;
     }
   }
