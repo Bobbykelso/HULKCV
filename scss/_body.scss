@@ -3,16 +3,16 @@
 }
 
 body {
-    background: rgb(233,229,236);
+    background-color: rgb(233,229,236);
     background: linear-gradient(180deg, rgba(233,229,236,1) 0%, rgba(155,120,167,1) 88%, rgba(90,72,98,1) 100%);
     margin: 0;
-    font-family: 'Calibri, sans-serif';
+    font-family: 'Courgette', cursive;
     font-size: auto;
     color: $fontColor;
     h1 {
         color: $titleColor; 
         border-top: solid 2px $titleColor;
-        font-size: 1.17em;
+        font-size: 1.6em;
         text-align: center;
     }
 }

@@ -32,15 +32,13 @@
         <h1 class="skills" id="skills"><i class="fi-rr-angle-down" id="icon3"></i>Skills</h1>
         <div class="skills__content" id="skills__content">
             <div class="textHuman">
-                Détient une expertise dans divers domaines:
-                <ul>
-                    <li>Biologie</li>
-                    <li>Chimie</li>
-                    <li>Ingénierie</li>
-                    <li>Physiologie</li>
-                    <li>Physique nucléaire</li>
-                    <li>Rayons Gamma</li>
-                </ul>
+                Détient une expertise dans divers domaines:<br>
+                    -Biologie<br>
+                    -Chimie<br>
+                    -Ingénierie<br>
+                    -Physiologie<br>
+                    -Physique nucléaire<br>
+                    -Rayons Gamma<br>
                 Capable de dissimuler avec difficulté sa véritable identité.
             </div>
             <div class="textHulk">

@@ -35,6 +35,9 @@
         margin: 0;
         height: 50px;
         position: relative;
+        &:hover{
+            text-shadow: 1.5px 2.5px rgba(0, 0, 0, 0.2);
+        }
     }
     i {
         display: flex;
@@ -59,6 +62,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height .5s;
+    text-align: center;
 }
 
 .hide {

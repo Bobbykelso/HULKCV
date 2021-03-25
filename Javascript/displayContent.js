@@ -11,6 +11,9 @@ const skills = Q("#skills__content");
 const icon1 = Q("#icon1");
 const icon2 = Q("#icon2");
 const icon3 = Q("#icon3");
+const icon4 = Q("#icon4");
+const contactButton = Q("#contact");
+const contact = Q("#contact__content");
 
 function displayToggle(content, icon, contentText){
     content.classList.toggle('display');
@@ -37,4 +40,8 @@ experienceButton.addEventListener('click', function(){
 
 skillsButton.addEventListener('click', function(){
     displayToggle(skills, icon3, 'skills');
+})
+
+contactButton.addEventListener('click', function(){
+    displayToggle(contact, icon4, 'contact');
 })

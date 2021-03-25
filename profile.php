@@ -1,7 +1,7 @@
 <main>
     <section class="profil">
         <div class="carousel" id="carousel">
-            <img class="image" src="public\img\carousel.jpg" alt="Carroussel Dr Banner">
+            <img class="image" src="public\img\carouselBANNER.jpg" alt="Carroussel Dr Banner">
             <img class="imageHulk" src="public\img\carouselHULK.jpg" alt="Carroussel HULK">
         </div>
         <h1>Qui suis-je ? </h1>
@@ -26,7 +26,10 @@
             </div>
         </div>
     </section>
-    <div class="contactBtn">
-        <button>Contactez-moi</button>
+    <div>
+        <button class="contact" id="contact"><i class="fi-rr-angle-down" id="icon4"></i><span>Contactez-moi</span></button>
+        <div class="contact__content" id="contact__content">
+            Du ocntenu
+        </div>
     </div>
 </main>

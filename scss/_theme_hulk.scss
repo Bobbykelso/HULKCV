@@ -17,15 +17,18 @@
 }
 
 .hulk-mod{
-    background-color: $primaryColorHulk;
+    background-color: rgb(37,51,36);
+    background: linear-gradient(184deg, rgba(37,51,36,1) 0%, rgba(28,71,25,1) 35%, rgba(0,0,0,1) 100%);
     color: $fontColorHulk;
     font-family: 'Creepster', cursive;
     font-size: 20px;
     letter-spacing: 2px;
+    text-shadow: 2px 3px #000;
     h1 {
         font-family: 'Butcherman', cursive;
         font-size: 30px;
-        text-shadow: -0.2px -0.2px 0 #000, 1px 1px 0 #000, 0.2px 0.2px 0 #000, 0.2px 0.2px 0 #000;
+        text-shadow: 2px 3px #000;
+        color: $titleColorHulk;
     }
 
     button {
@@ -58,4 +61,9 @@
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
+}
+
+.descriptionHulk {
+    text-shadow: 5px 5px black;
+    font-size: 30px;
 }
