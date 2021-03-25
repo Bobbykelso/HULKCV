@@ -34,7 +34,7 @@ footer{
     flex: 25%;
   }
 
-  img {
+  .imgIcons {
     width: 35px;
     margin-right: 35px;
     margin-left: 35px;
@@ -85,7 +85,7 @@ footer{
   .networkIcons {
     flex:50%;
 
-    img {
+    .imgIcons {
       width: 50%;
       margin: auto;
       padding-top: 15px;
