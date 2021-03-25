@@ -18,10 +18,10 @@
             </div>
             <div class="parcours" id="parcours">
                 <p class="descriptionBanner">
-                    Dr Bruce Banner </br> 33ans </br> 180cm </br> 80kg </br> blblblbl
+                    Dr Robert Bruce Banner <br> 42ans <br> 1m76 <br> 58kg <br> Génie intellectuel <br> Affilié au groupe des Avengers & du Shield <br> Ne SURTOUT pas mettre en colère sous AUCUNS prétextes !
                 </p>
                 <p class="descriptionHulk">
-                    HULK </br> 33ans </br> 1000 </br> 1000kg </br> blblblbl
+                    HUUUUUULK <br> 42ans <br> 2m43 <br> 585kg <br> MOI TOUT CASSER <br> BANNER SUCKS !!<br>
                 </p>
             </div>
         </div>

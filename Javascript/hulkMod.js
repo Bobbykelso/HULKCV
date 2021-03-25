@@ -8,6 +8,8 @@ hulkPicture = document.querySelector('.hulkPicture');
 descriptionBanner = document.querySelector('.descriptionBanner');
 descriptionHulk = document.querySelector('.descriptionHulk');
 shake = document.querySelector('#shake');
+imageBanner = document.querySelector('.image');
+imageHulk = document.querySelector('.imageHulk');
 
 
 hulkButton.addEventListener('click', function (e) {
@@ -28,6 +30,8 @@ hulkButton.addEventListener('click', function (e) {
         descriptionBanner.style.display = "none";
         descriptionHulk.style.display = "block";
         shake.classList.add('shake');
+        imageBanner.style.opacity = "1";
+        imageHulk.style.opacity = "0";
         
     } else {
         hulkButton.textContent = "En savoir plus";
@@ -40,6 +44,8 @@ hulkButton.addEventListener('click', function (e) {
         bannerPicture.style.opacity ="1";
         descriptionBanner.style.display = "block";
         descriptionHulk.style.display = "none";
+        imageBanner.style.opacity = "0";
+        imageHulk.style.opacity = "1";
 
     }
 
