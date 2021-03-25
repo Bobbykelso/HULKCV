@@ -26,21 +26,30 @@
     <img src="public/img/icons/youtube.png" alt="youtubeIcon" src="https://youtu.be/MmQdIgD5UVI">
     </a>
 </div>
+<div class="blankFooter">
+</div>
 </div>
 
 
 <div class="searchInsite">
 <form class="formSearchInsite" method="get" action="">
 
-    <fieldset class= "fieldsetSearch">
-        <label class="labelSearch" for="search">Chercher sur le site :</label>
+    <div class=labelSearch>
+        <label for="search">Chercher sur le site :</label>
+    </div>
+
+    <div class="inputSearch">
         <input type="search" name="search" id="search">
+    </div>
 
-
-        <button class="buttonSearch" type="submit" id="searchBtn">Chercher</button>
-    </fieldset>
+    <div class="buttonSearch">
+        <button type="submit" id="searchBtn">&#x1F50E</button>
+    </div>
+    
 </form>
+
 </div>
+
 
 <div class="endText">© Wild Code School - Adrien, Aurélien, Sara - Mars 2021</div>
 
