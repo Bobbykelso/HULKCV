@@ -1,3 +1,15 @@
+@keyframes moving-icon {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(1vh);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
 .profil h1{
   width: 95%;
   margin: 18px auto;
@@ -10,11 +22,17 @@
   justify-content: space-around;
 }
 .image {
+  opacity: 1;
   width: 100%;
 }
 .imageHulk {
-  display: none;
+  opacity: 0;
   width: 100%;
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .avatar {
   flex: 1;
@@ -23,9 +41,9 @@
 
 .parcours {
   flex: 1;
-  text-align: left;
-  color: $fontColor;
+  text-align: center;
   font-size: 1.2em;
+  line-height: 3.3rem;
 }
 
 .hulkPicture {
@@ -48,6 +66,36 @@
   display:none;
 }
 
+.contact {
+  padding: 8px 15px 8px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover > i {
+    animation: moving-icon 0.7s linear infinite;
+  }
+}
+
+.contact i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.contact__content {
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s;
+}
+
+.hide {
+  max-height: 0;
+}
+
+.display{
+  max-height: 500px;
+}
+
 @media screen and (max-width: 767px) {
     .carousel {
       display: none;
@@ -55,4 +103,5 @@
     .description {
       text-align: center;
     }
+
   }

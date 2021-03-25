@@ -348,6 +348,7 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
 }
 .fi-rr-document:before {
     content: "\f16f";
+    margin-right: 5px;
 }
 .fi-rr-dollar:before {
     content: "\f170";
@@ -811,6 +812,7 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
 }
 .fi-rr-settings:before {
     content: "\f209";
+    margin-right: 5px;
 }
 .fi-rr-share:before {
     content: "\f20a";
@@ -1045,6 +1047,7 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
 }
 .fi-rr-user:before {
     content: "\f257";
+    margin-right: 5px;
 }
 .fi-rr-users:before {
     content: "\f258";

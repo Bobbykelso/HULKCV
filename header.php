@@ -2,9 +2,9 @@
     <div class="nav" id="nav">
         <a href="#nav" class="active" id="active"><i class="fi-rr-home"></i>Accueil</a>
         <ul class="list" id="list">
-            <li><a href="avatar">Mon Profil</a></li>
-            <li><a href="#timeline">Mes Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#avatar"><i class="fi-rr-user"></i>Mon Profil</a></li>
+            <li><a href="#timeline"><i class="fi-rr-settings"></i>Mes Compétences</a></li>
+            <li><a href="#contact"><i class="fi-rr-document"></i>Contact</a></li>
             <li><a href="#search">About</a></li>
         </ul>
         </a>
