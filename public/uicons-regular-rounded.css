@@ -225,6 +225,7 @@ i[class^="fi-rr-"]:before, i[class*=" fi-rr-"]:before, span[class^="fi-rr-"]:bef
 }
 .fi-rr-circle-small:before {
     content: "\f146";
+    font-size: 0.5rem;
 }
 .fi-rr-circle:before {
     content: "\f147";

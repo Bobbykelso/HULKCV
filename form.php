@@ -58,7 +58,7 @@
                 </div>
                 <div class="custom-radio">
                     <input type="radio" name="souhait" value="autre" id="autre" />
-                    <label class="radio-label" for="autre">T'EN VEUX ENCORE ?!</label>
+                    <label class="radio-label" for="autre">T'EN VEUX ENCORE PLUS ?!</label>
                 </div>
             </div>
         </div>

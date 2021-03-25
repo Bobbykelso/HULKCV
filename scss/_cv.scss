@@ -18,6 +18,7 @@
     }
     button{
         padding: 8px 0;
+        margin-top: 15px;
     }
 }
 
@@ -59,10 +60,18 @@
 
 
 .timeline__content, .experience__content, .skills__content{
+    display: flex;
+    justify-content: center;
     max-height: 0;
     overflow: hidden;
-    transition: max-height .5s;
+    transition: max-height .7s;
     text-align: center;
+    .textHuman {
+        display:block;
+    }
+    .textHulk {
+        display:none;
+    }
 }
 
 .hide {
@@ -72,12 +81,12 @@
 .display{
     max-height: 500px;
 }
-.textHuman {
-    display:block;
-}
-.textHulk {
-    display:none;
-}
+
 @media only screen and (min-width: 767px){
-    
+    .textHuman {
+        line-height: 2rem
+    }
+    .textHulk {
+        line-height: 2rem;
+    }
 }
