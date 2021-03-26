@@ -43,7 +43,7 @@
             </div>
 
             <div class="buttonSearch">
-                <button type="submit" id="searchBtn">&#x1F50E</button>
+                <button type="submit" id="searchBtn" class="btn">&#x1F50E</button>
             </div>
         </div>
 
