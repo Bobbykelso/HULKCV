@@ -12,8 +12,7 @@ carouselBanner = document.querySelector('.image');
 carouselHulk = document.querySelector('.imageHulk');
 
 
-hulkButton.addEventListener('click', function (e) {
-    e.preventDefault();
+hulkButton.addEventListener('click', function () {
     body.classList.toggle('hulk-mod');
     if (body.className) {
         hulkButton.textContent = "AU SECOURS";

@@ -1,13 +1,13 @@
 <form class="form-inline" method="post" action="/traitement.php">
     <div class="formTitleDiv">
-    <h1 class="formTitle">Formulaire de contact</h1>
+    <h1 class="formTitle" id="formTitle">Formulaire de contact</h1>
     </div>
 
     <fieldset class=humanForm>
         <legend>Vos coordonnées</legend>
         <div class="form-input">
-            <label for="contact">Nom et Prénom :</label>
-            <input class="custom-input" type="text" name="contact" id="contact" placeholder="Iron Man">
+            <label for="form-contact">Nom et Prénom :</label>
+            <input class="custom-input" type="text" name="form-contact" id="form-contact" placeholder="Iron Man">
         </div>
 
         <div class="form-input">

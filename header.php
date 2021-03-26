@@ -4,7 +4,7 @@
         <ul class="list" id="list">
             <li><a href="#avatar"><i class="fi-rr-user"></i>Mon Profil</a></li>
             <li><a href="#timeline"><i class="fi-rr-settings"></i>Mes Compétences</a></li>
-            <li><a href="#contact"><i class="fi-rr-document"></i>Contact</a></li>
+            <li><a href="#form-contact"><i class="fi-rr-document"></i>Contact</a></li>
             <li><a href="#search">About</a></li>
         </ul>
         </a>
