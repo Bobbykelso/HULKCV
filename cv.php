@@ -3,7 +3,7 @@
         <h1 class="timeline" id="timeline"><i class="fi-rr-angle-down" id="icon1"></i>Timeline</h1>
         <div class="timeline__content" id="timeline__content">
             <div class="textHuman">
-                <p>Je m'appelle Robert Bruce Banner, mais tous le monde m'appelle le Dr.Banner <br> je suis diplomé en physique nucléaire et rayons gamma. <br> J'ai pu travaillé pour l'armée américaine participant a la création d'un nouveau type d'arme nucléaire, la Bombe G, une bombe basée sur les rayons Gamma.<br> J'ai subi une transformation a la suite d'une explosion lors de la creation de cette Bombe entrainant la création d'un monstre que je rétiens enfoui en moi ... <br>
+                <p>Je m'appelle Robert Bruce Banner, mais tous le monde m'appelle le Dr.Banner <br> je suis diplomé en physique nucléaire et rayons gamma. <br> J'ai pu travaillé pour l'armée américaine, participant à la création d'un nouveau type d'arme nucléaire, la Bombe G, une bombe basée sur les rayons Gamma.<br> J'ai subi une transformation à la suite d'une explosion lors de la création de cette bombe, entrainant la création d'un monstre que je retiens enfoui en moi ... <br>
                 </p>
             </div>
             <div class="textHulk">
@@ -52,5 +52,5 @@
             </div>
         </div>
     </article>
-    <button><a href="#avatar" id="activate-hulk-mod">En savoir plus</a></button>
+    <button><a href="#containerprofil" id="activate-hulk-mod">En savoir plus</a></button>
 </section>

@@ -27,7 +27,7 @@
         </div>
     </section>
     <div>
-        <button class="contact" id="contact"><i class="fi-rr-angle-down" id="icon4"></i><span>Contactez-moi</span></button>
+        <button class="contact btn" id="contact"><i class="fi-rr-angle-down" id="icon4"></i><span>Contactez-moi</span></button>
         <div class="contact__content" id="contact__content">
             <p><span class="icon-phone"></span> 078 654 362<br>
                 <span class="fi-rr-envelope"></span> Bruce_Banner@avengers.com

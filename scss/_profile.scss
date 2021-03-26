@@ -104,8 +104,19 @@
     .carousel {
       display: none;
     }
+
+    .avatar{
+      align-self: center;
+    }
+
     .description {
       text-align: center;
     }
+    .parcours {
+      flex: 1;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.5rem;
+    }
 
-  }
+}
