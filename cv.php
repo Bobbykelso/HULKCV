@@ -17,8 +17,9 @@
         <div class="experience__content" id="experience__content">
             <div class="textHuman">
                 <p><span class="fi-rr-circle-small"></span> Création d'une bombe gamma pour les militaires.<br>
-                <span class="fi-rr-circle-small"></span> Création d'un téléporteur.<br>
-                <span class="fi-rr-circle-small"></span> Création d'un champ de force protecteur.</p>
+                    <span class="fi-rr-circle-small"></span> Création d'un téléporteur.<br>
+                    <span class="fi-rr-circle-small"></span> Création d'un champ de force protecteur.
+                </p>
             </div>
             <div class="textHulk">
                 <p><span class="fi-rr-circle-small"></span> Tueur du Leviathan !<br>
@@ -45,12 +46,14 @@
             </div>
             <div class="textHulk">
                 <p><span class="fi-rr-circle-small"></span> Force et résistance physique surhumaines quasi illimitées <br>
-                <span class="fi-rr-circle-small"></span> Accroissement de sa force et sa résistance grâce à la colère <br>
-                <span class="fi-rr-circle-small"></span> Cicatrisation (régénération) et rapidité surhumaines <br>
-                <span class="fi-rr-circle-small"></span> Bonds dans les airs <br>
-                <span class="fi-rr-circle-small"></span> Point faible : Capacités psychiques très limitées</p>
+                    <span class="fi-rr-circle-small"></span> Accroissement de sa force et sa résistance grâce à la colère <br>
+                    <span class="fi-rr-circle-small"></span> Cicatrisation (régénération) et rapidité surhumaines <br>
+                    <span class="fi-rr-circle-small"></span> Bonds dans les airs <br>
+                    <span class="fi-rr-circle-small"></span> Point faible : Capacités psychiques très limitées
+                </p>
             </div>
         </div>
     </article>
-    <button><a href="#containerprofil" id="activate-hulk-mod">En savoir plus</a></button>
+    <a href="#containerprofil" class="btn" id="activate-hulk-mod">En savoir plus</a>
+
 </section>

@@ -69,7 +69,7 @@
         </div>
    </fieldset>
 
-   <button type="submit">Send</button>
+   <button type="submit" class="btn">Send</button>
 
 
 </form>
